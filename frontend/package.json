@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "bcss": "npx tailwind build src/assets/styles -o src/styles.css"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +21,7 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "rxjs": "~6.4.0",
+    "tailwindcss": "^1.1.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
