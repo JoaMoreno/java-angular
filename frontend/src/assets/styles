@@ -20,4 +20,12 @@
   @apply bg-gray-500;
 }
 
+.icon-blue:hover {
+  @apply text-blue-400
+}
+
+.icon-red:hover {
+  @apply text-red-400
+}
+
 @tailwind utilities;
