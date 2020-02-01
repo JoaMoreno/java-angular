@@ -1,12 +1,12 @@
 
 <div class="text-center py-3">
+  <h2 class="text-blue-500 text-5xl"><i class="fab fa-angular"></i> + <i class="fab fa-java"></i></h2>
   <h1 class="text-gray-800">Simple CRUD</h1>
-  <h2 class="text-gray-600">Angular & Java</h2>
 </div>
 
 <div class="bg-blue-300 w-full flex justify-center py-5">
-  <button class="mx-5 btn btn-gray">Listar</button>
-  <button class="mx-5 btn btn-blue">Nuevo</button>
+  <button (click)="Listar()" class="mx-5 btn btn-blue">Listar</button>
+  <button (click)="Nuevo()" class="mx-5 btn btn-blue">Nuevo</button>
 </div>
 
 <router-outlet></router-outlet>
