@@ -16,13 +16,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## CSS Build
 Run `npm run bcss` to build tailwind css.
-<<<<<<< HEAD
-> Extracting Components
-`btn` `btn-gray` `btn-blue` `item-list` `icon-blue` `icon-red`
-=======
-> Extracting Components:
-> - `btn` `btn-gray` `btn-blue` `item-list`
->>>>>>> 4960d8fd26fef813ff9433c56051ff4a6e0f8d85
+- Extracting Components: `btn` `btn-gray` `btn-blue` `item-list` `icon-blue` `icon-red`
 
 ## Running unit tests
 
